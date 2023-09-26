@@ -1,0 +1,37 @@
+DataProc-> native Apache Products
+			-> VMs
+
+Hadoop-compatible
+		-> CHEAPER blob storage
+		-> no editing capabilities 
+		-> Google Cloud Storage
+
+HBase-> managed HBase API-> BigTable
+
+Hive-> managed HIVE style-> BigQuery
+
+ETL-> apache beam-> DataFlow 
+Original apache spark-> DataProc
+
+Hadoop -> Petabyte scale
+					-> mapReduce, real-time 
+				-> DATA Lake
+
+In-memory-> outside Hadoop
+		-> In-MEM analytics
+SPARK-> high in memory; no persistence of data
+
+Into the environment:
+-> Batch
+				-> SQL-> Hive
+				-> NoSQL-> HBase
+-> Stream
+				-> building-> Kafka
+				-> consuming-> Storm 
+
+ETL -> Apache Beam
+								-> Py and Java
+
+Infra-> ZooKeeper nodes
+Monitoring-> Ambari dashboard
+
