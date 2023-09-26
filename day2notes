@@ -21,6 +21,8 @@ In-memory-> outside Hadoop
 		-> In-MEM analytics
 SPARK-> high in memory; no persistence of data
 
+Kafka/Storm-> (building or consuming streams/messages)-> Pub/Sub -> create topics-> publisher can write/subription can read from topic 
+
 Into the environment:
 -> Batch
 				-> SQL-> Hive
